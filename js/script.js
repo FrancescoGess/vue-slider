@@ -119,8 +119,8 @@ createApp({
             this.autoScroll()
         },
         autoScroll(){
-            this.autoScroll = setInterval((){
+            this.autoScroll = setInterval(() => {
                 this.nextImg();
-        }, 3000)
+        }, 3000);
   }
-}).mount('#app')
+}}).mount('#app')
